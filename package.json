@@ -1,36 +1,25 @@
 {
-  "name": "checkdns",
+  "name": "checkdnsjson",
   "version": "0.1.0",
-  "description": "Resolution of domain names or IP addresses given or from a file",
+  "description": "Resolution of domain names or IP addresses given in JSON",
   "keywords": [
     "dns",
     "lookup",
     "domain",
-    "terminal",
-    "cli",
-    "shell",
     "nslookup",
     "resolve"
   ],
   "author": {
-    "name": "Florent Detry",
-    "email": "florent@fdetry.be",
-    "url": "http://fdetry.be/"
+    "name": "Matthijs Breemans"
   },
   "main": "./lib/checkdns",
-  "bin": {
-    "checkdns": "./bin/checkdns"
-  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/Fridus/checkdns.git"
+    "url": "git://github.com/matthijsbreemans/checkdnsjson.git"
   },
   "readmeFilename": "README.md",
   "scripts": {
     "test": "mocha"
-  },
-  "dependencies": {
-    "commander": "~2.9.0"
   },
   "devDependencies": {
     "mocha": "~3.2.0",
