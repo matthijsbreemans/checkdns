@@ -9,8 +9,4 @@ describe('Require checkdns', function(){
     var checkdns = require('../');
     checkdns.should.have.property('nslookup');
   })
-  it('Has property nslookupFromFile', function(){
-    var checkdns = require('../');
-    checkdns.should.have.property('nslookupFromFile');
-  })
 })
